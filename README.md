@@ -1,5 +1,7 @@
 # truffle-deploy
 
+[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/truffle-deploy)
+
 Fine-grained Truffle deployment, with:
 
 * Automatic gas estimation.
@@ -15,7 +17,7 @@ npm install --dev truffle-deploy
 ## Usage
 
 Writing a deployment is relatively similar to what you do
-with a Truffle migration. You can put your deployment in any directory
+with a Truffle migration. You can put your deployments in any directory
 you want, but preferably NOT `migrations` since that could cause confusions.
 
 ```solidity
