@@ -1,0 +1,14 @@
+{
+  "name": "truffle-deploy",
+  "version": "1.0.0",
+  "description": "Fine-grained Truffle deployment.",
+  "author": "Trung Nguyen <trung@axieinfinity.com>",
+  "license": "MIT",
+  "repository": "axieinfinity/truffle-deploy",
+  "bin": {
+    "truffle-deploy": "bin/truffle-deploy.js"
+  },
+  "peerDependencies": {
+    "truffle": "^5.0.0-next.9"
+  }
+}
