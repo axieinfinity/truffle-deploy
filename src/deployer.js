@@ -13,6 +13,7 @@ exports.deploy = async (contract, ...args) => {
 
   const instance = await execute(contract.new, ...args);
   logger.info(`${name}: ${instance.address}`);
+  contract.address = instance.address;
 
   return instance;
 };
