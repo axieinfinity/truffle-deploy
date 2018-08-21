@@ -9,7 +9,7 @@ if (require.main === module) {
     ...process.argv.slice(2),
   ];
 
-  const { status } = spawnSync('npx truffle exec', argv, {
+  const { status } = spawnSync('npx truffle compile && npx truffle exec', argv, {
     stdio: 'inherit',
     shell: true,
   });
